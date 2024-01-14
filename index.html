@@ -29,15 +29,14 @@
                     var currentLine = textLines[i];
                     // for each line
                     var list = "<li>" + currentLine + "</li>";
-                    ibadah += ibadah;
+                    todolist += list;
                 }
-                ibadah += "</ul>";
-                document.getElementById("demo2").innerHTML = ibadah;
+                todolist += "</ul>";
+                document.getElementById("demo2").innerHTML = todolist;
             }
             xhttp.open("GET", "ibadah.txt");
             xhttp.send();
         }
     </script>
-<h2>tugas sopian munawar </h2>
-</h2></body>
+</body>
 </html>
